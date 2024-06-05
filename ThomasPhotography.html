@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas' Wildlife Photography</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .bio {
+            text-align: center;
+        }
+        .bio img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .photos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .photos img {
+            margin: 1rem;
+            max-width: calc(33% - 2rem);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+            margin: 0 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Thomas' Wildlife Photography</h1>
+    </header>
+    <nav>
+        <a href="#bio">About Me</a>
+        <a href="#photos">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="bio" class="bio">
+            <img src="your-photo.jpg" alt="Thomas' photo">
+            <h2>About Me</h2>
+            <p>Hello! I'm Thomas, a wildlife photographer based in Romania. Capturing the beauty of wildlife through my lens is my passion. Join me as I explore the wonders of nature and share my journey through photographs.</p>
+        </section>
+        <section id="photos" class="photos">
+            <h2>Gallery</h2>
+            <img src="photo1.jpg" alt="Wildlife Photo 1">
+            <img src="photo2.jpg" alt="Wildlife Photo 2">
+            <img src="photo3.jpg" alt="Wildlife Photo 3">
+            <img src="photo4.jpg" alt="Wildlife Photo 4">
+            <img src="photo5.jpg" alt="Wildlife Photo 5">
+            <img src="photo6.jpg" alt="Wildlife Photo 6">
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me on social media:</p>
+            <p>
+                <a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a> |
+                <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a>
+            </p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Thomas' Wildlife Photography. All rights reserved.</p>
+    </footer>
+</body>
+</html>
